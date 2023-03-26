@@ -8,6 +8,6 @@ import './style.css';
 ReactDom.createRoot(document.getElementById('root'))
     .render(
         <React.StrictMode>
-            <FirstApp />
+            <FirstApp title="Hola Mundo Tech" subtitle={123} />
         </React.StrictMode>
     )
